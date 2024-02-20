@@ -1,0 +1,12 @@
+module.exports = {
+    name: "ping",           //REQUIRED
+    aliases: ["pingpong"],  //OPTIONAL
+    description: "Ping",    //REQUIRED
+    usage: "<whatever>",    //OPTIONAL(If is only intended to be used as a parent for subcommands))
+    allowedInGuild: true,   //OPTIONAL
+    allowedInDM: true,      //OPTIONAL
+    execute: async function(bot, message, args) {
+		message.channel.send(`User ${message.author} pinged with arguments "${args}". Pong!`);
+        bot.logger.info(`User ${message.author.username} pinged with arguments "${args}". Pong!`);
+    } //OPTIONAL(If is only intended to be used as a parent for subcommands))
+};

@@ -1,0 +1,25 @@
+{
+  "name": "discordjstemplate",
+  "version": "0.6.9",
+  "description": "no",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Despacitoblade/DogaBotJS.git"
+  },
+  "author": "Despacitoblade",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Despacitoblade/DogaBotJS/issues"
+  },
+  "homepage": "https://github.com/Despacitoblade/DogaBotJS#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3"
+  }
+}
